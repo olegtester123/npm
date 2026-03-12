@@ -1,0 +1,11 @@
+{
+  "name": "@shprengel-co/middleware-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "braces": "^2.0.2",
+    "cookie": "^0.6.0",
+    "cross-spawn": "^5.1.0",
+    "mongoose": "4.2.4"
+  }
+}

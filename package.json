@@ -1,0 +1,11 @@
+{
+  "name": "simple-npm-demo",
+  "version": "1.0.0",
+  "description": "A simple npm repo with one dependency",
+  "main": "index.js",
+  "dependencies": {
+    "@shprengel-co/middleware-utils": "file:./middleware-utils",
+    "chalk": "^4.1.2",
+    "web-app": "file:./web-app"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@shprengel-co/middleware-utils": "file:../middleware-utils",
+    "lodash":"3.10.1"
+  }
+}
