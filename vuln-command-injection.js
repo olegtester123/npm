@@ -7,6 +7,7 @@ function listDir(userPath) {
 
 function runCommand(userCmd) {
   exec(userCmd, (err, stdout) => console.log(stdout));
+  console.log('Hello World');
 }
 
 module.exports = { listDir, runCommand };
