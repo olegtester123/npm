@@ -1,0 +1,7 @@
+version: "1.0.0"
+ignore:
+  - id: "webapp-server-ssrf-integrations-preview"
+    username: "oshprengel@endor.ai"
+    finding_name: "Server-Side Request Forgery (SSRF)"
+    reason: "risk-accepted"
+    comments: "Intentional AI SAST fixture in web-app/server.js (/api/integrations/preview) added for scanner validation, not a real production risk. If this rule ever matches an unrelated SSRF finding, re-scope with extra_key from `endorctl ignore --finding-uuid <UUID>`."
