@@ -1,0 +1,8 @@
+version: "1.0.0"
+ignore:
+  - id: "webapp-server-ssrf-integrations-preview"
+    username: "oshprengel@endor.ai"
+    finding_name: "Server-Side Request Forgery (SSRF)"
+    extra_key: "6a8c93dc848e0ee6fa0b34df"
+    reason: "risk-accepted"
+    comments: "Intentional AI SAST fixture in web-app/server.js (/api/integrations/preview) added for scanner validation, not a real production risk. Scoped to this exact finding via extra_key (finding UUID)."
